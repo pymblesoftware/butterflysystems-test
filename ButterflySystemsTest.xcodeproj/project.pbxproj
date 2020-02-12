@@ -15,6 +15,7 @@
 		D58093BC23F383B40070F295 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58093BA23F383B40070F295 /* LaunchScreen.storyboard */; };
 		D58093C723F383B40070F295 /* ButterflySystemsTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58093C623F383B40070F295 /* ButterflySystemsTestTests.swift */; };
 		D58093D223F383B40070F295 /* ButterflySystemsTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58093D123F383B40070F295 /* ButterflySystemsTestUITests.swift */; };
+		D58093E123F3B2390070F295 /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58093E023F3B2390070F295 /* CalculatorViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D58093CD23F383B40070F295 /* ButterflySystemsTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButterflySystemsTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D58093D123F383B40070F295 /* ButterflySystemsTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButterflySystemsTestUITests.swift; sourceTree = "<group>"; };
 		D58093D323F383B40070F295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D58093E023F3B2390070F295 /* CalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		D58093AE23F383B10070F295 /* ButterflySystemsTest */ = {
 			isa = PBXGroup;
 			children = (
+				D58093DF23F3B2060070F295 /* ViewModel */,
 				D58093AF23F383B10070F295 /* AppDelegate.swift */,
 				D58093B123F383B10070F295 /* SceneDelegate.swift */,
 				D58093B323F383B10070F295 /* ContentView.swift */,
@@ -134,6 +137,14 @@
 				D58093D323F383B40070F295 /* Info.plist */,
 			);
 			path = ButterflySystemsTestUITests;
+			sourceTree = "<group>";
+		};
+		D58093DF23F3B2060070F295 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D58093E023F3B2390070F295 /* CalculatorViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +280,7 @@
 			files = (
 				D58093B023F383B10070F295 /* AppDelegate.swift in Sources */,
 				D58093B223F383B10070F295 /* SceneDelegate.swift in Sources */,
+				D58093E123F3B2390070F295 /* CalculatorViewModel.swift in Sources */,
 				D58093B423F383B10070F295 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
