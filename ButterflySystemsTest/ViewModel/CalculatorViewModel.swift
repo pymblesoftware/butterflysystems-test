@@ -7,6 +7,8 @@
 //
 
 // Not sure if this is meant to be MVVM, VIPER, VIP, or MVC.
+// Also could have been done in Objective-C
+// Also could have been machine converted: www.objective-c2swift.com
 
 import UIKit
 
